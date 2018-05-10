@@ -58,10 +58,6 @@ img {
   background-size: cover;
 }
 
-/*h2 {
-
-}*/
-
 h2,
 h4 {
   display: flex;
@@ -99,6 +95,7 @@ h4 {
 .images img {
   height: 200px;
   width: 300px;
+  margin-right: 10px;
   margin-bottom: 10px;
   padding: 5px;
 }
@@ -110,8 +107,12 @@ h4 {
   margin-right: 10px;
 }
 
+#locations {
+  margin-top: 50px;
+}
+
 div.flex-container.locations {
-  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");;
   background-color: transparent;
   background-size: cover;
   display: flex;
@@ -128,10 +129,9 @@ div.flex-container.locations {
   padding: 70px;
 }
 
-.location1 {
+.box {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: center;
   border: 1px dotted orangred;
   background-color: black;
@@ -139,30 +139,6 @@ div.flex-container.locations {
   margin: 40px;
   padding: 10px;
 }
-
-.location2 {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items:center;
-border: 1px dotted orangred;
-background-color: black;
-width: 300px;
-margin: 40px;
-padding: 10px;
-}
-
-.location3 {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items:center;
-border: 1px dotted orangred;
-background-color: black;
-width: 300px;
-margin: 40px;
-}
-
 
 h5 {
   display: flex;
@@ -172,6 +148,7 @@ h5 {
 }
 
 footer {
+  height: 200px;
   margin-left: 20px;
   text-align: left;
 }
