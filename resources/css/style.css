@@ -58,6 +58,10 @@ img {
   background-size: cover;
 }
 
+/*h2 {
+
+}*/
+
 h2,
 h4 {
   display: flex;
@@ -84,7 +88,12 @@ h4 {
 
 .images {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;hytrew3q2/
+  justify-content: space-between;
+}
+
+.row {
+  display: inline-flex;
 }
 
 .images img {
@@ -152,7 +161,8 @@ border: 1px dotted orangred;
 background-color: black;
 width: 300px;
 margin: 40px;
-padding: 10px;
+}
+
 
 h5 {
   display: flex;
@@ -162,5 +172,6 @@ h5 {
 }
 
 footer {
+  margin-left: 20px;
   text-align: left;
 }
