@@ -101,7 +101,7 @@ h4 {
   margin-right: 10px;
 }
 
-div.flex-container locations {
+div.flex-container.locations {
   background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-color: transparent;
   background-size: cover;
@@ -119,21 +119,15 @@ div.flex-container locations {
   padding: 70px;
 }
 
-#locations
-
 .location {
-display: flex;
-flex-direction: column;
-border: 1px dotted orangred;
-padding: 10px;
-}
-
-.locations-card {
+  display: flex;
   flex-direction: column;
+  border: 1px dotted orangred;
+  padding: 10px;
   justify-content: center;
-background-color: black;
-width: 300px;
-margin-right: 40px;
+  background-color: black;
+  width: 300px;
+  margin-right: 40px;
 }
 
 h5 {
