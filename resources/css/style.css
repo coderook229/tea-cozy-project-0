@@ -58,15 +58,29 @@ img {
   background-size: cover;
 }
 
-h2,
-h4 {
+.mission h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
   width: 1200px;
   margin: 0;
   padding: 10px;
+  background-color: black;
+}
+
+.mission h4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  margin: 0;
+  padding: 10px;
+  background-color: black;
+}
+
+h2,
+h4 {
+  text-align: center;
 }
 
 .Tea-Container {
@@ -108,18 +122,14 @@ h4 {
 }
 
 #locations {
-  margin-top: 50px;
+  margin: 100px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");;
 }
 
 div.flex-container.locations {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");;
   background-color: transparent;
   background-size: cover;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
   width: 1200px;
   display: block;
   flex-direction: column;
