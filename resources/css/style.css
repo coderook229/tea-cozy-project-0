@@ -85,8 +85,12 @@ h4 {
 
 .Tea-Container {
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+.Tea {
+  width: 100%;
 }
 
 .image-container {
@@ -100,6 +104,7 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .row {
@@ -109,7 +114,7 @@ h4 {
 .images img {
   height: 200px;
   width: 300px;
-  margin: 10px;
+  margin-bottom: 10px;
   padding: 10px;
 }
 
@@ -124,16 +129,19 @@ h4 {
 
 #locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  height: 500px;
-  margin: 15px;
-  padding-top: 70px;
+  height: 550px;
+  padding-top: 15px;
+}
+
+#locations h2 {
+margin-bottom: 15px;
 }
 
 div.flex-container.locations {
   background-color: transparent;
   background-size: cover;
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -148,8 +156,6 @@ div.flex-container.locations {
   background-color: black;
   width: 300px;
   margin: 40px;
-  padding-top: 5px;
-  padding-bottom: -15px;
 }
 
 h5 {
